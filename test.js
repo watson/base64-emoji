@@ -24,12 +24,12 @@ test('decode - buffer (no padding)', function (t) {
 })
 
 test('encode - string (with padding)', function (t) {
-  t.deepEqual(base64emoji.encode('fo'), new Buffer('💍🍑🉑📫'))
+  t.deepEqual(base64emoji.encode('fo'), new Buffer('💍🍑🚢📫'))
   t.end()
 })
 
 test('decode - string (with padding)', function (t) {
-  t.deepEqual(base64emoji.decode('💍🍑🉑📫'), new Buffer('fo'))
+  t.deepEqual(base64emoji.decode('💍🍑🚢📫'), new Buffer('fo'))
   t.end()
 })
 
