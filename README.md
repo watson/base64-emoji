@@ -12,7 +12,7 @@ using only 64 different emojicons (+1 for padding).
 ## Installation
 
 ```
-npm i base64-emoji
+npm install base64-emoji
 ```
 
 ## Usage
