@@ -1,0 +1,36 @@
+{
+  "name": "base64-emoji",
+  "version": "0.0.0",
+  "description": "Like base64 but encoding into emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson/base64-emoji.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^4.3.2",
+    "tape": "^4.0.0"
+  },
+  "keywords": [
+    "emoji",
+    "emojoicon",
+    "emojoicons",
+    "base",
+    "base64",
+    "encode",
+    "encoding",
+    "decode",
+    "decoding",
+    "data"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/base64-emoji/issues"
+  },
+  "homepage": "https://github.com/watson/base64-emoji"
+}
