@@ -4,6 +4,8 @@ Inspired by [base-emoji](https://github.com/pfraze/base-emoji) this
 module allows for transformation of any binary data to and from emoji
 using only 64 different emojicons.
 
+![emojo-all-the-things](https://cloud.githubusercontent.com/assets/10602/8368864/31a7982c-1b7e-11e5-8731-d1728ddfbafa.jpg)
+
 [![Build status](https://travis-ci.org/watson/base64-emoji.svg?branch=master)](https://travis-ci.org/watson/base64-emoji)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
