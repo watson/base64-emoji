@@ -1,6 +1,6 @@
 {
   "name": "base64-emoji",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Like base64 but encoding into emojis",
   "main": "index.js",
   "scripts": {
