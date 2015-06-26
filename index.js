@@ -6,6 +6,7 @@ var emojiByteSize = 4
 
 exports.encode = function (buf) {
   if (typeof buf === 'string') buf = new Buffer(buf)
+  else if (!Buffer.isBuffer(buf)) throw new Error('Invalid argument! Expected string or Buffer')
 
   var base64 = buf.toString('base64')
   var result = new Buffer(base64.length * emojiByteSize)
@@ -22,6 +23,7 @@ exports.encode = function (buf) {
 
 exports.decode = function (buf) {
   if (typeof buf === 'string') buf = new Buffer(buf)
+  else if (!Buffer.isBuffer(buf)) throw new Error('Invalid argument! Expected string or Buffer')
 
   var emojisUsed = buf.length / emojiByteSize
   var base64 = ''

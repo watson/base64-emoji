@@ -38,6 +38,16 @@ test('encode -> decode', function (t) {
   t.end()
 })
 
+test('encode - number', function (t) {
+  t.throws(base64emoji.encode.bind(null, 42))
+  t.end()
+})
+
+test('decode - number', function (t) {
+  t.throws(base64emoji.decode.bind(null, 42))
+  t.end()
+})
+
 test('encode - no input', function (t) {
   t.throws(base64emoji.encode)
   t.end()
