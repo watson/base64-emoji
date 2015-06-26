@@ -23,7 +23,7 @@ var base64Emoji = require('base64-emoji')
 var encoded = base64Emoji.encode('Hello World')
 var decoded = base64Emoji.decode(encoded)
 
-console.log(encoded.toString()) // => 🍕📙🕡0⃣🎎📙🉑😮🕡🐗🏦🕤🎎📙🕖📫
+console.log(encoded.toString()) // => 🍕📙🕡🌵🎎📙🚢😮🕡🐗🏦🕤🎎📙🕖📫
 console.log(decoded.toString()) // => Hello World
 ```
 
