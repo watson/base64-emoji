@@ -1,6 +1,6 @@
 {
   "name": "base64-emoji",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Like base64 but encoding into emojis",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/watson/base64-emoji",
   "coordinates": [
-    18.4786341,
-    -69.95484809999999
+    37.4121528,
+    -122.0951204
   ]
 }
