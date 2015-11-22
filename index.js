@@ -12,10 +12,10 @@ exports.encode = function (buf) {
   var result = new Buffer(base64.length * EMOJI_BYTE_SIZE)
   var index
 
-  for (var n = 0; n < base64.length; n++) {
-    index = mime.indexOf(base64[n])
-    if (index === -1) throw new Error('Invalid MIME base64 character: ' + base64[n])
-    result.write(emojis[index], n * EMOJI_BYTE_SIZE)
+  for (var i = 0, l = base64.length; i < l; i++) {
+    index = mime.indexOf(base64[i])
+    if (index === -1) throw new Error('Invalid MIME base64 character: ' + base64[i])
+    result.write(emojis[index], i * EMOJI_BYTE_SIZE)
   }
 
   return result
